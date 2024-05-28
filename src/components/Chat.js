@@ -9,7 +9,7 @@ import { db } from "../firebase";
 import Message from "./Message";
 import { useCollection, useDocument } from "react-firebase-hooks/firestore";
 import { collection, doc, orderBy, query } from "firebase/firestore";
-import { behavior } from "@testing-library/user-event/dist/cjs/event/behavior/registry.js";
+// import { behavior } from "@testing-library/user-event/dist/cjs/event/behavior/registry.js";
 
 function Chat() {
   const roomId = useSelector(selectRoomId);

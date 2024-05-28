@@ -27,10 +27,6 @@ function Sidebar() {
       <SidebarHeader>
         <SidebarInfo>
           <h2>Amiti</h2>
-          <h3>
-            <FiberManualRecordIcon />
-            shri hari B S
-          </h3>
         </SidebarInfo>
         <CreateIcon />
       </SidebarHeader>
